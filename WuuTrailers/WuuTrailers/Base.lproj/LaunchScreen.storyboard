@@ -16,17 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="WuuTrailers" translatesAutoresizingMaskIntoConstraints="NO" id="ysd-Sd-bwF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WuuTrailers" translatesAutoresizingMaskIntoConstraints="NO" id="ysd-Sd-bwF">
                                 <rect key="frame" x="57" y="354" width="300" height="189"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ysd-Sd-bwF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="6fH-rI-wHo"/>
-                            <constraint firstItem="ysd-Sd-bwF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jKl-cp-eau"/>
-                            <constraint firstItem="ysd-Sd-bwF" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="vkt-H9-pH2"/>
-                            <constraint firstItem="ysd-Sd-bwF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="310" id="xt2-1z-db2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ysd-Sd-bwF" secondAttribute="trailing" constant="57" id="K1W-Gp-LMo"/>
+                            <constraint firstItem="ysd-Sd-bwF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="310" id="QBR-ue-7OU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ysd-Sd-bwF" secondAttribute="bottom" constant="319" id="aMN-5u-iaB"/>
+                            <constraint firstItem="ysd-Sd-bwF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="hqo-cZ-lO8"/>
                         </constraints>
                     </view>
                 </viewController>
